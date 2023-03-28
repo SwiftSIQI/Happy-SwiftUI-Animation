@@ -1,0 +1,658 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		665F6F5729D2C7E10083F92D /* HappySwiftUIAnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665F6F5629D2C7E10083F92D /* HappySwiftUIAnimationApp.swift */; };
+		665F6F5929D2C7E10083F92D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665F6F5829D2C7E10083F92D /* ContentView.swift */; };
+		665F6F5B29D2C7E20083F92D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 665F6F5A29D2C7E20083F92D /* Assets.xcassets */; };
+		665F6F5E29D2C7E20083F92D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 665F6F5D29D2C7E20083F92D /* Preview Assets.xcassets */; };
+		665F6F6529D2CB470083F92D /* CommonContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665F6F6429D2CB470083F92D /* CommonContainer.swift */; };
+		665F6F6729D2D25B0083F92D /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665F6F6629D2D25B0083F92D /* DataModel.swift */; };
+		665F6F6E29D2DF1A0083F92D /* HalfSheetTrans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665F6F6D29D2DF1A0083F92D /* HalfSheetTrans.swift */; };
+		665F6F7229D2E2410083F92D /* RolloutMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665F6F7129D2E2410083F92D /* RolloutMenu.swift */; };
+		665F6F7529D2E7C60083F92D /* SpringboardZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665F6F7429D2E7C60083F92D /* SpringboardZoom.swift */; };
+		665F6F7829D2EBBE0083F92D /* Magnification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665F6F7729D2EBBE0083F92D /* Magnification.swift */; };
+		665F6F7B29D2EFAD0083F92D /* FidgetText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665F6F7A29D2EFAD0083F92D /* FidgetText.swift */; };
+		665F6F7E29D2F0B80083F92D /* ClothGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665F6F7D29D2F0B80083F92D /* ClothGrid.swift */; };
+		665F6F8129D306D10083F92D /* DynamicTouch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665F6F8029D306D10083F92D /* DynamicTouch.swift */; };
+		666E2BA129D315F400DC2448 /* DynamicGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666E2BA029D315F400DC2448 /* DynamicGrid.swift */; };
+		666E2BA429D31ADD00DC2448 /* Boomerang.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666E2BA329D31ADD00DC2448 /* Boomerang.swift */; };
+		666E2BA729D31B1400DC2448 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666E2BA629D31B1400DC2448 /* Card.swift */; };
+		666E2BAA29D31D2F00DC2448 /* PantoneSpread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666E2BA929D31D2F00DC2448 /* PantoneSpread.swift */; };
+		666E2BAD29D31DF400DC2448 /* RadialDial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666E2BAC29D31DF400DC2448 /* RadialDial.swift */; };
+		666E2BB029D3206C00DC2448 /* InsertCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666E2BAF29D3206C00DC2448 /* InsertCard.swift */; };
+		666E2BB229D3229B00DC2448 /* TransformPlayground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666E2BB129D3229B00DC2448 /* TransformPlayground.swift */; };
+		666E2BB629D325FD00DC2448 /* PhyllotaxisColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666E2BB529D325FD00DC2448 /* PhyllotaxisColorPicker.swift */; };
+		666E2BB829D32C3F00DC2448 /* PhyllotaxisPlayground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666E2BB729D32C3F00DC2448 /* PhyllotaxisPlayground.swift */; };
+		666E2BBC29D3377B00DC2448 /* CoreImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666E2BBB29D3377B00DC2448 /* CoreImg.swift */; };
+		666E2BBE29D3384400DC2448 /* DynamicEmoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666E2BBD29D3384400DC2448 /* DynamicEmoji.swift */; };
+		666E2BC929D3385700DC2448 /* Confetti3.sks in Resources */ = {isa = PBXBuildFile; fileRef = 666E2BC029D3385600DC2448 /* Confetti3.sks */; };
+		666E2BCA29D3385700DC2448 /* Confetti.sks in Resources */ = {isa = PBXBuildFile; fileRef = 666E2BC129D3385600DC2448 /* Confetti.sks */; };
+		666E2BCB29D3385700DC2448 /* Confetti4.sks in Resources */ = {isa = PBXBuildFile; fileRef = 666E2BC229D3385600DC2448 /* Confetti4.sks */; };
+		666E2BCC29D3385700DC2448 /* Sparkler.sks in Resources */ = {isa = PBXBuildFile; fileRef = 666E2BC329D3385700DC2448 /* Sparkler.sks */; };
+		666E2BCD29D3385700DC2448 /* Eyes.sks in Resources */ = {isa = PBXBuildFile; fileRef = 666E2BC429D3385700DC2448 /* Eyes.sks */; };
+		666E2BCE29D3385700DC2448 /* Embers.sks in Resources */ = {isa = PBXBuildFile; fileRef = 666E2BC529D3385700DC2448 /* Embers.sks */; };
+		666E2BCF29D3385700DC2448 /* Smoke.sks in Resources */ = {isa = PBXBuildFile; fileRef = 666E2BC629D3385700DC2448 /* Smoke.sks */; };
+		666E2BD029D3385700DC2448 /* Confetti2.sks in Resources */ = {isa = PBXBuildFile; fileRef = 666E2BC729D3385700DC2448 /* Confetti2.sks */; };
+		666E2BD129D3385700DC2448 /* Starkler.sks in Resources */ = {isa = PBXBuildFile; fileRef = 666E2BC829D3385700DC2448 /* Starkler.sks */; };
+		666E2BD429D33AB500DC2448 /* EasingShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666E2BD329D33AB500DC2448 /* EasingShadow.swift */; };
+		666E2BD729D3418900DC2448 /* Particles.sks in Resources */ = {isa = PBXBuildFile; fileRef = 666E2BD629D3418900DC2448 /* Particles.sks */; };
+		666E2BD929D341A200DC2448 /* LightLeak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666E2BD829D341A200DC2448 /* LightLeak.swift */; };
+		666E2BDB29D3434000DC2448 /* AnisotropicButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666E2BDA29D3434000DC2448 /* AnisotropicButton.swift */; };
+		666E2BDD29D344B700DC2448 /* ParallaxAppIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666E2BDC29D344B700DC2448 /* ParallaxAppIcon.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		665F6F5329D2C7E10083F92D /* HappySwiftUIAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappySwiftUIAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		665F6F5629D2C7E10083F92D /* HappySwiftUIAnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappySwiftUIAnimationApp.swift; sourceTree = "<group>"; };
+		665F6F5829D2C7E10083F92D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		665F6F5A29D2C7E20083F92D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		665F6F5D29D2C7E20083F92D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		665F6F6429D2CB470083F92D /* CommonContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonContainer.swift; sourceTree = "<group>"; };
+		665F6F6629D2D25B0083F92D /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		665F6F6D29D2DF1A0083F92D /* HalfSheetTrans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalfSheetTrans.swift; sourceTree = "<group>"; };
+		665F6F6F29D2E0DB0083F92D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		665F6F7129D2E2410083F92D /* RolloutMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RolloutMenu.swift; sourceTree = "<group>"; };
+		665F6F7429D2E7C60083F92D /* SpringboardZoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringboardZoom.swift; sourceTree = "<group>"; };
+		665F6F7729D2EBBE0083F92D /* Magnification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magnification.swift; sourceTree = "<group>"; };
+		665F6F7A29D2EFAD0083F92D /* FidgetText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FidgetText.swift; sourceTree = "<group>"; };
+		665F6F7D29D2F0B80083F92D /* ClothGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothGrid.swift; sourceTree = "<group>"; };
+		665F6F8029D306D10083F92D /* DynamicTouch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTouch.swift; sourceTree = "<group>"; };
+		666E2BA029D315F400DC2448 /* DynamicGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicGrid.swift; sourceTree = "<group>"; };
+		666E2BA329D31ADD00DC2448 /* Boomerang.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boomerang.swift; sourceTree = "<group>"; };
+		666E2BA629D31B1400DC2448 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		666E2BA929D31D2F00DC2448 /* PantoneSpread.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantoneSpread.swift; sourceTree = "<group>"; };
+		666E2BAC29D31DF400DC2448 /* RadialDial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadialDial.swift; sourceTree = "<group>"; };
+		666E2BAF29D3206C00DC2448 /* InsertCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertCard.swift; sourceTree = "<group>"; };
+		666E2BB129D3229B00DC2448 /* TransformPlayground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformPlayground.swift; sourceTree = "<group>"; };
+		666E2BB529D325FD00DC2448 /* PhyllotaxisColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhyllotaxisColorPicker.swift; sourceTree = "<group>"; };
+		666E2BB729D32C3F00DC2448 /* PhyllotaxisPlayground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhyllotaxisPlayground.swift; sourceTree = "<group>"; };
+		666E2BBB29D3377B00DC2448 /* CoreImg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreImg.swift; sourceTree = "<group>"; };
+		666E2BBD29D3384400DC2448 /* DynamicEmoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicEmoji.swift; sourceTree = "<group>"; };
+		666E2BC029D3385600DC2448 /* Confetti3.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Confetti3.sks; sourceTree = "<group>"; };
+		666E2BC129D3385600DC2448 /* Confetti.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Confetti.sks; sourceTree = "<group>"; };
+		666E2BC229D3385600DC2448 /* Confetti4.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Confetti4.sks; sourceTree = "<group>"; };
+		666E2BC329D3385700DC2448 /* Sparkler.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Sparkler.sks; sourceTree = "<group>"; };
+		666E2BC429D3385700DC2448 /* Eyes.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Eyes.sks; sourceTree = "<group>"; };
+		666E2BC529D3385700DC2448 /* Embers.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Embers.sks; sourceTree = "<group>"; };
+		666E2BC629D3385700DC2448 /* Smoke.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Smoke.sks; sourceTree = "<group>"; };
+		666E2BC729D3385700DC2448 /* Confetti2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Confetti2.sks; sourceTree = "<group>"; };
+		666E2BC829D3385700DC2448 /* Starkler.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Starkler.sks; sourceTree = "<group>"; };
+		666E2BD329D33AB500DC2448 /* EasingShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasingShadow.swift; sourceTree = "<group>"; };
+		666E2BD629D3418900DC2448 /* Particles.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Particles.sks; sourceTree = "<group>"; };
+		666E2BD829D341A200DC2448 /* LightLeak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightLeak.swift; sourceTree = "<group>"; };
+		666E2BDA29D3434000DC2448 /* AnisotropicButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnisotropicButton.swift; sourceTree = "<group>"; };
+		666E2BDC29D344B700DC2448 /* ParallaxAppIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxAppIcon.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		665F6F5029D2C7E10083F92D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		665F6F4A29D2C7E10083F92D = {
+			isa = PBXGroup;
+			children = (
+				665F6F5529D2C7E10083F92D /* HappySwiftUIAnimation */,
+				665F6F5429D2C7E10083F92D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		665F6F5429D2C7E10083F92D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				665F6F5329D2C7E10083F92D /* HappySwiftUIAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		665F6F5529D2C7E10083F92D /* HappySwiftUIAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				665F6F6F29D2E0DB0083F92D /* Info.plist */,
+				665F6F5829D2C7E10083F92D /* ContentView.swift */,
+				666E2BDF29D344CA00DC2448 /* ParallaxAppIcon */,
+				666E2BDE29D344BE00DC2448 /* AnisotropicButton */,
+				666E2BD529D3416B00DC2448 /* LightLeak */,
+				666E2BBF29D3384A00DC2448 /* DynamicEmoji */,
+				666E2BBA29D3376B00DC2448 /* CoreImage */,
+				666E2BB929D32CBB00DC2448 /* PhyllotaxisPlayground */,
+				666E2BB429D325F500DC2448 /* PhyllotaxisColorPicker */,
+				666E2BD229D33A9F00DC2448 /* EasingShadow */,
+				666E2BB329D322A400DC2448 /* TransformPlayground */,
+				666E2BAE29D3206800DC2448 /* InsertCard */,
+				666E2BAB29D31DEA00DC2448 /* RadialDial */,
+				666E2BA829D31D1D00DC2448 /* PantoneSpread */,
+				666E2BA529D31B0300DC2448 /* Boomerang */,
+				666E2BA229D31A5F00DC2448 /* DynamicGrid */,
+				666E2B9F29D315D800DC2448 /* DynamicTouch */,
+				665F6F7F29D306950083F92D /* ClothGrid */,
+				665F6F7C29D2EFEC0083F92D /* FidgetText */,
+				665F6F7929D2EDF50083F92D /* Magnification */,
+				665F6F7629D2EA490083F92D /* SpringboardZoom */,
+				665F6F7329D2E2480083F92D /* RolloutMenu */,
+				665F6F7029D2E2010083F92D /* HalfSheetTrans */,
+				665F6F6C29D2DEC10083F92D /* MainApp */,
+				665F6F5A29D2C7E20083F92D /* Assets.xcassets */,
+				665F6F5C29D2C7E20083F92D /* Preview Content */,
+			);
+			path = HappySwiftUIAnimation;
+			sourceTree = "<group>";
+		};
+		665F6F5C29D2C7E20083F92D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				665F6F5D29D2C7E20083F92D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		665F6F6C29D2DEC10083F92D /* MainApp */ = {
+			isa = PBXGroup;
+			children = (
+				665F6F5629D2C7E10083F92D /* HappySwiftUIAnimationApp.swift */,
+				665F6F6429D2CB470083F92D /* CommonContainer.swift */,
+				665F6F6629D2D25B0083F92D /* DataModel.swift */,
+			);
+			path = MainApp;
+			sourceTree = "<group>";
+		};
+		665F6F7029D2E2010083F92D /* HalfSheetTrans */ = {
+			isa = PBXGroup;
+			children = (
+				665F6F6D29D2DF1A0083F92D /* HalfSheetTrans.swift */,
+			);
+			path = HalfSheetTrans;
+			sourceTree = "<group>";
+		};
+		665F6F7329D2E2480083F92D /* RolloutMenu */ = {
+			isa = PBXGroup;
+			children = (
+				665F6F7129D2E2410083F92D /* RolloutMenu.swift */,
+			);
+			path = RolloutMenu;
+			sourceTree = "<group>";
+		};
+		665F6F7629D2EA490083F92D /* SpringboardZoom */ = {
+			isa = PBXGroup;
+			children = (
+				665F6F7429D2E7C60083F92D /* SpringboardZoom.swift */,
+			);
+			path = SpringboardZoom;
+			sourceTree = "<group>";
+		};
+		665F6F7929D2EDF50083F92D /* Magnification */ = {
+			isa = PBXGroup;
+			children = (
+				665F6F7729D2EBBE0083F92D /* Magnification.swift */,
+			);
+			path = Magnification;
+			sourceTree = "<group>";
+		};
+		665F6F7C29D2EFEC0083F92D /* FidgetText */ = {
+			isa = PBXGroup;
+			children = (
+				665F6F7A29D2EFAD0083F92D /* FidgetText.swift */,
+			);
+			path = FidgetText;
+			sourceTree = "<group>";
+		};
+		665F6F7F29D306950083F92D /* ClothGrid */ = {
+			isa = PBXGroup;
+			children = (
+				665F6F7D29D2F0B80083F92D /* ClothGrid.swift */,
+			);
+			path = ClothGrid;
+			sourceTree = "<group>";
+		};
+		666E2B9F29D315D800DC2448 /* DynamicTouch */ = {
+			isa = PBXGroup;
+			children = (
+				665F6F8029D306D10083F92D /* DynamicTouch.swift */,
+			);
+			path = DynamicTouch;
+			sourceTree = "<group>";
+		};
+		666E2BA229D31A5F00DC2448 /* DynamicGrid */ = {
+			isa = PBXGroup;
+			children = (
+				666E2BA029D315F400DC2448 /* DynamicGrid.swift */,
+			);
+			path = DynamicGrid;
+			sourceTree = "<group>";
+		};
+		666E2BA529D31B0300DC2448 /* Boomerang */ = {
+			isa = PBXGroup;
+			children = (
+				666E2BA329D31ADD00DC2448 /* Boomerang.swift */,
+				666E2BA629D31B1400DC2448 /* Card.swift */,
+			);
+			path = Boomerang;
+			sourceTree = "<group>";
+		};
+		666E2BA829D31D1D00DC2448 /* PantoneSpread */ = {
+			isa = PBXGroup;
+			children = (
+				666E2BA929D31D2F00DC2448 /* PantoneSpread.swift */,
+			);
+			path = PantoneSpread;
+			sourceTree = "<group>";
+		};
+		666E2BAB29D31DEA00DC2448 /* RadialDial */ = {
+			isa = PBXGroup;
+			children = (
+				666E2BAC29D31DF400DC2448 /* RadialDial.swift */,
+			);
+			path = RadialDial;
+			sourceTree = "<group>";
+		};
+		666E2BAE29D3206800DC2448 /* InsertCard */ = {
+			isa = PBXGroup;
+			children = (
+				666E2BAF29D3206C00DC2448 /* InsertCard.swift */,
+			);
+			path = InsertCard;
+			sourceTree = "<group>";
+		};
+		666E2BB329D322A400DC2448 /* TransformPlayground */ = {
+			isa = PBXGroup;
+			children = (
+				666E2BB129D3229B00DC2448 /* TransformPlayground.swift */,
+			);
+			path = TransformPlayground;
+			sourceTree = "<group>";
+		};
+		666E2BB429D325F500DC2448 /* PhyllotaxisColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				666E2BB529D325FD00DC2448 /* PhyllotaxisColorPicker.swift */,
+			);
+			path = PhyllotaxisColorPicker;
+			sourceTree = "<group>";
+		};
+		666E2BB929D32CBB00DC2448 /* PhyllotaxisPlayground */ = {
+			isa = PBXGroup;
+			children = (
+				666E2BB729D32C3F00DC2448 /* PhyllotaxisPlayground.swift */,
+			);
+			path = PhyllotaxisPlayground;
+			sourceTree = "<group>";
+		};
+		666E2BBA29D3376B00DC2448 /* CoreImage */ = {
+			isa = PBXGroup;
+			children = (
+				666E2BBB29D3377B00DC2448 /* CoreImg.swift */,
+			);
+			path = CoreImage;
+			sourceTree = "<group>";
+		};
+		666E2BBF29D3384A00DC2448 /* DynamicEmoji */ = {
+			isa = PBXGroup;
+			children = (
+				666E2BC129D3385600DC2448 /* Confetti.sks */,
+				666E2BC729D3385700DC2448 /* Confetti2.sks */,
+				666E2BC029D3385600DC2448 /* Confetti3.sks */,
+				666E2BC229D3385600DC2448 /* Confetti4.sks */,
+				666E2BC529D3385700DC2448 /* Embers.sks */,
+				666E2BC429D3385700DC2448 /* Eyes.sks */,
+				666E2BC629D3385700DC2448 /* Smoke.sks */,
+				666E2BC329D3385700DC2448 /* Sparkler.sks */,
+				666E2BC829D3385700DC2448 /* Starkler.sks */,
+				666E2BBD29D3384400DC2448 /* DynamicEmoji.swift */,
+			);
+			path = DynamicEmoji;
+			sourceTree = "<group>";
+		};
+		666E2BD229D33A9F00DC2448 /* EasingShadow */ = {
+			isa = PBXGroup;
+			children = (
+				666E2BD329D33AB500DC2448 /* EasingShadow.swift */,
+			);
+			path = EasingShadow;
+			sourceTree = "<group>";
+		};
+		666E2BD529D3416B00DC2448 /* LightLeak */ = {
+			isa = PBXGroup;
+			children = (
+				666E2BD629D3418900DC2448 /* Particles.sks */,
+				666E2BD829D341A200DC2448 /* LightLeak.swift */,
+			);
+			path = LightLeak;
+			sourceTree = "<group>";
+		};
+		666E2BDE29D344BE00DC2448 /* AnisotropicButton */ = {
+			isa = PBXGroup;
+			children = (
+				666E2BDA29D3434000DC2448 /* AnisotropicButton.swift */,
+			);
+			path = AnisotropicButton;
+			sourceTree = "<group>";
+		};
+		666E2BDF29D344CA00DC2448 /* ParallaxAppIcon */ = {
+			isa = PBXGroup;
+			children = (
+				666E2BDC29D344B700DC2448 /* ParallaxAppIcon.swift */,
+			);
+			path = ParallaxAppIcon;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		665F6F5229D2C7E10083F92D /* HappySwiftUIAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 665F6F6129D2C7E20083F92D /* Build configuration list for PBXNativeTarget "HappySwiftUIAnimation" */;
+			buildPhases = (
+				665F6F4F29D2C7E10083F92D /* Sources */,
+				665F6F5029D2C7E10083F92D /* Frameworks */,
+				665F6F5129D2C7E10083F92D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HappySwiftUIAnimation;
+			productName = HappySwiftUIAnimation;
+			productReference = 665F6F5329D2C7E10083F92D /* HappySwiftUIAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		665F6F4B29D2C7E10083F92D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					665F6F5229D2C7E10083F92D = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 665F6F4E29D2C7E10083F92D /* Build configuration list for PBXProject "HappySwiftUIAnimation" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 665F6F4A29D2C7E10083F92D;
+			productRefGroup = 665F6F5429D2C7E10083F92D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				665F6F5229D2C7E10083F92D /* HappySwiftUIAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		665F6F5129D2C7E10083F92D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				666E2BCD29D3385700DC2448 /* Eyes.sks in Resources */,
+				666E2BC929D3385700DC2448 /* Confetti3.sks in Resources */,
+				666E2BD029D3385700DC2448 /* Confetti2.sks in Resources */,
+				666E2BD729D3418900DC2448 /* Particles.sks in Resources */,
+				666E2BD129D3385700DC2448 /* Starkler.sks in Resources */,
+				666E2BCC29D3385700DC2448 /* Sparkler.sks in Resources */,
+				665F6F5E29D2C7E20083F92D /* Preview Assets.xcassets in Resources */,
+				665F6F5B29D2C7E20083F92D /* Assets.xcassets in Resources */,
+				666E2BCB29D3385700DC2448 /* Confetti4.sks in Resources */,
+				666E2BCA29D3385700DC2448 /* Confetti.sks in Resources */,
+				666E2BCE29D3385700DC2448 /* Embers.sks in Resources */,
+				666E2BCF29D3385700DC2448 /* Smoke.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		665F6F4F29D2C7E10083F92D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				666E2BBE29D3384400DC2448 /* DynamicEmoji.swift in Sources */,
+				666E2BDB29D3434000DC2448 /* AnisotropicButton.swift in Sources */,
+				665F6F7E29D2F0B80083F92D /* ClothGrid.swift in Sources */,
+				666E2BDD29D344B700DC2448 /* ParallaxAppIcon.swift in Sources */,
+				666E2BAA29D31D2F00DC2448 /* PantoneSpread.swift in Sources */,
+				666E2BAD29D31DF400DC2448 /* RadialDial.swift in Sources */,
+				665F6F6529D2CB470083F92D /* CommonContainer.swift in Sources */,
+				666E2BA429D31ADD00DC2448 /* Boomerang.swift in Sources */,
+				665F6F7229D2E2410083F92D /* RolloutMenu.swift in Sources */,
+				666E2BD929D341A200DC2448 /* LightLeak.swift in Sources */,
+				666E2BD429D33AB500DC2448 /* EasingShadow.swift in Sources */,
+				666E2BA129D315F400DC2448 /* DynamicGrid.swift in Sources */,
+				666E2BB229D3229B00DC2448 /* TransformPlayground.swift in Sources */,
+				666E2BB829D32C3F00DC2448 /* PhyllotaxisPlayground.swift in Sources */,
+				665F6F6729D2D25B0083F92D /* DataModel.swift in Sources */,
+				666E2BB629D325FD00DC2448 /* PhyllotaxisColorPicker.swift in Sources */,
+				665F6F7529D2E7C60083F92D /* SpringboardZoom.swift in Sources */,
+				665F6F6E29D2DF1A0083F92D /* HalfSheetTrans.swift in Sources */,
+				666E2BB029D3206C00DC2448 /* InsertCard.swift in Sources */,
+				665F6F5929D2C7E10083F92D /* ContentView.swift in Sources */,
+				666E2BA729D31B1400DC2448 /* Card.swift in Sources */,
+				665F6F8129D306D10083F92D /* DynamicTouch.swift in Sources */,
+				665F6F5729D2C7E10083F92D /* HappySwiftUIAnimationApp.swift in Sources */,
+				665F6F7829D2EBBE0083F92D /* Magnification.swift in Sources */,
+				666E2BBC29D3377B00DC2448 /* CoreImg.swift in Sources */,
+				665F6F7B29D2EFAD0083F92D /* FidgetText.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		665F6F5F29D2C7E20083F92D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		665F6F6029D2C7E20083F92D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		665F6F6229D2C7E20083F92D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HappySwiftUIAnimation/Preview Content\"";
+				DEVELOPMENT_TEAM = AVGQC4G38V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HappySwiftUIAnimation/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.sketchk.HappySwiftUIAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		665F6F6329D2C7E20083F92D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HappySwiftUIAnimation/Preview Content\"";
+				DEVELOPMENT_TEAM = AVGQC4G38V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HappySwiftUIAnimation/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.sketchk.HappySwiftUIAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		665F6F4E29D2C7E10083F92D /* Build configuration list for PBXProject "HappySwiftUIAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				665F6F5F29D2C7E20083F92D /* Debug */,
+				665F6F6029D2C7E20083F92D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		665F6F6129D2C7E20083F92D /* Build configuration list for PBXNativeTarget "HappySwiftUIAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				665F6F6229D2C7E20083F92D /* Debug */,
+				665F6F6329D2C7E20083F92D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 665F6F4B29D2C7E10083F92D /* Project object */;
+}
